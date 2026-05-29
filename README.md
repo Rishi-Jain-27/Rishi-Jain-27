@@ -1,16 +1,23 @@
-## Hi there 👋
+## Hi there! 👋
 
-<!--
-**Rishi-Jain-27/Rishi-Jain-27** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Rishi Jain, a high school junior at Woodward Academy (Class of 2027), and an aspiring machine learning researcher and engineer.
 
-Here are some ideas to get you started:
+### 🔭 Currently Working On
+* **[DebateSearch](https://www.debate-search.com/):** Building accessible tools to democratize information for the debate community.
+* **AI Research:** Exploring deep learning architectures and mechanistic interpretability.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🌱 Currently Learning
+* Advanced techniques in **Retrieval-Augmented Generation (RAG)** systems.
+* Refining my implementation of complex neural networks using **PyTorch**.
+
+### 👯 Looking to Collaborate On
+* Open-source AI projects, specifically those aimed at improving education or information accessibility.
+* Mechanistic interpretability projects.
+
+### 🤔 I’m Looking for Help With
+* Refining my research methodologies as I transition from building tools to conducting formal academic AI research.
+
+### 📫 How to Reach Me
+
+* Check out my latest projects on **[GitHub](https://github.com/Rishi-Jain-27)**. Blog posts on [my personal website](https://rishi-jain-27.github.io/)
+* Feel free to reach out to 27rishijainpersonalemail@gmail.com.
