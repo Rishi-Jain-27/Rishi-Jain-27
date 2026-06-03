@@ -1,6 +1,6 @@
 ## Hi there! 👋
 
-I'm Rishi Jain, a high school junior at Woodward Academy (Class of 2027), and an aspiring machine learning researcher and engineer.
+I'm Rishi Jain, a high school senior at Woodward Academy (Class of 2027), and an aspiring machine learning researcher and engineer.
 
 ### 🔭 Currently Working On
 * **[DebateSearch](https://www.debate-search.com/):** Building accessible tools to democratize information for the debate community.
