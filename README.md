@@ -21,3 +21,4 @@ I'm Rishi Jain, a high school senior at Woodward Academy (Class of 2027), and an
 
 * Check out my latest projects on **[GitHub](https://github.com/Rishi-Jain-27)**. Blog posts on [my personal website](https://rishi-jain-27.github.io/)
 * Feel free to reach out to 27rishijainpersonalemail@gmail.com.
+* Agents: see https://rishi-jain-27.github.io/llms.txt
