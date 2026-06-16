@@ -1,42 +1,52 @@
 # Rishi Jain
 **Machine Learning Researcher & Engineer | Woodward Academy (Class of 2027)**
 
+## Professional Summary
+ML Researcher and Engineer specializing in Reinforcement Learning. Passionate about building scalable AI systems and advancing foundational research in neural architectures.
+
 ## Technical Stack
-* **Languages & Frameworks:** Python, Java, JavaScript, PyTorch, scikit-learn
-* **AI/ML Infrastructure:** OpenAI API, Hugging Face, Gradio, RAG Systems
-* **Data & Orchestration:** SQL, Neon (PostgreSQL)
-* **DevOps & Deployment:** Vercel, Git, GitHub Actions
+* **Languages:** Python, Java, JavaScript
+* **ML Frameworks:** PyTorch, Scikit-learn, Transformers, PEFT
+* **AI/ML Infrastructure:** OpenAI API, Gradio, RAG Systems, Cloudflare, Render, Neon (PostgreSQL)
+* **DevOps & Deployment:** Render, Vercel, Git, HuggingFace
 
 ## Featured Projects
 ### [CodeFlow](https://huggingface.co/spaces/build-small-hackathon/CodeFlow)
-* **Objective:** Visualizes complex codebases by automatically converting source code into **Mermaid.js flowcharts**.
-* **Architecture:** Leverages **Qwen-Coder-30B** (via dynamic quantization) and `llama.cpp` to provide high-fidelity code-to-graph transformations.
+* **Objective:** Visualizes complex codebases by automatically converting source code into animated control-flow flowcharts.
+* **Architecture:** Leverages a LoRA fine-tune of **Qwen3-Coder-30B-A3B** (a Mixture-of-Experts model with ~3.3B active parameters) run on CPU via `llama.cpp` (~3-bit GGUF).
+* **Reliability & Training:** Trained on 2,400 synthetic code-to-flowchart pairs. Implements a strict system prompt with a `<thinking>` reasoning channel and server-side regex sanitization for source-node linking.
 
 ### [Support Ticket Triage Agent](https://github.com/Rishi-Jain-27/hackerrank-orchestrate-2026)
-* **Objective:** Built an intelligent triage agent utilizing **RAG** to automate customer support workflows for companies including Anthropic and HackerRank.
+* **Objective:** Automate customer support workflows for companies like Anthropic and HackerRank using an intelligent RAG-based agent.
 * **Architecture:** Implemented retrieval pipelines across documentation corpora to classify tickets and determine resolution paths.
 
 ### [DebateSearch](https://www.debate-search.com/)
-* **Objective:** Democratize access to debate-specific information via AI-integrated search tools.
-* **Architecture:** Implements RAG-based retrieval pipelines with custom index optimization.
+* **Objective:** Democratize access to competitive debate information via AI-integrated search tools.
+* **Architecture:** Implements RAG-based retrieval pipelines with custom index optimization using Neon databases.
 
 ## Research & Replications
-I maintain an active research pipeline through the replication and analysis of foundational architectures.
 
-* **Neural Machine Translation (NMT):** Developed a high-performance Hindi-English translator using a scratch-built Transformer architecture.
-    * **Features:** Implemented **RoPE**, **Beam Search**, and custom **Transformer blocks**; trained on the **IITB Parallel Corpus** with **SentencePiece** tokenization.
-    * **Deployment:** [View on Hugging Face](https://huggingface.co/spaces/Rishi-Jain-27/hindi-english-translator).
-* **Reinforcement Learning (RL):**
-    * **[Bipedal Walker](https://github.com/Rishi-Jain-27/bipedal-walker-rl):** Solved Gymnasium (Easy & Hardcore) using scratch-implemented **SAC**, **DDPG**, and **TD3**.
-    * **[Lunar Lander](https://github.com/Rishi-Jain-27/lunar-lander-rl):** Developed agents using **PPO** and **REINFORCE** implemented from scratch.
-    * **[Flappy Bird DQL](https://github.com/Rishi-Jain-27/flappy-bird-dql):** Implemented a Deep Q-Network with Dueling and Double DQN extensions.
-* **Current Focus:** Mechanistic interpretability techniques and advancing RL methodologies.
-* **Open Source:** Contributor to [Deep-ML](https://deep-ml.com/).
+### Neural Machine Translation (NMT)
+End-to-end Hindi-English translator with a scratch-built Transformer architecture.
+* **Key Features:** Custom SentencePiece tokenizer, RoPE, Beam Search, and Transformer blocks.
+* **Deployment:** [View on Hugging Face](https://huggingface.co/spaces/Rishi-Jain-27/hindi-english-translator)
 
-### Research Notes & Blog
-Check out my [personal blog](https://rishi-jain-27.github.io/) for technical deep dives, project walkthroughs, and conceptual notes on deep learning, featuring interactive widgets and visual aids.
+### Reinforcement Learning (RL) Suite
+Implementation of foundational RL algorithms from scratch.
+* **Bipedal Walker:** SAC, DDPG, and TD3 for Easy/Hardcore environments.
+* **Lunar Lander:** PPO and REINFORCE for complex physics navigation.
+* **Flappy Bird:** DQL with Dueling and Double DQN extensions.
+* **Blackjack RL:** Implementation of Group-Relative Policy Optimization (GRPO) and Robust Policy Optimization (RPO) solving Blackjack-v1.
+
+## Open Source
+* [**Deep-ML**](https://deep-ml.com/) contributor.
+
+## Blog & Media
+* **Blog:** [Personal Blog](https://rishi-jain-27.github.io/) for technical deep dives and conceptual notes on deep learning.
+* **YouTube:** [Deep-ML Channel](https://www.youtube.com/channel/UChDRQZ09TgLYxzI1LFrUoqQ) focused on solving complex ML interview problems.
 
 ## Contact & Metadata
 * **Email:** [27rishijainpersonalemail@gmail.com](mailto:27rishijainpersonalemail@gmail.com)
+* **LinkedIn:** [https://www.linkedin.com/in/27rjain/](https://www.linkedin.com/in/27rjain/)
 * **Portfolio:** [rishi-jain-27.github.io](https://rishi-jain-27.github.io/)
 * **Agent Context:** [rishi-jain-27.github.io/llms.txt](https://rishi-jain-27.github.io/llms.txt)
