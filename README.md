@@ -37,6 +37,7 @@ Implementation of foundational RL algorithms from scratch.
 * **Lunar Lander:** PPO and REINFORCE for complex physics navigation.
 * **Flappy Bird:** DQL with Dueling and Double DQN extensions.
 * **Blackjack RL:** Implementation of Group-Relative Policy Optimization (GRPO) and Robust Policy Optimization (RPO) solving Blackjack-v1.
+* **chessMAPPO:** Multi-Agent PPO (MAPPO) self-play between white and black agents, built on python-chess and PettingZoo.
 
 ## Open Source
 * [**Deep-ML**](https://deep-ml.com/) contributor.
